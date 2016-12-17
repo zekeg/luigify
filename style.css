@@ -1,0 +1,83 @@
+body{
+  background-color: red;
+  margin: 0px;
+  background-image: url("pizza.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  back
+}
+
+.flex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding-top: 20px;
+}
+
+#luigi{
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+  text-align: center;
+}
+
+
+
+#submit{
+font-family: 'Shrikhand', cursive;
+font-size: 50px;
+border-width: medium;
+border-style: solid;
+border-radius: 25px;
+color: white;
+margin-top: 10px;
+padding: 5px;
+
+}
+
+#display{
+  width: 50%;
+  background-color: white;
+font-family: 'Acme', sans-serif;
+font-size: 19px;
+padding: 10px;
+margin-top: 15px;
+border-radius: 20px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.hidden{
+  display: none;
+}
+
+#luigi{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+#luigi img{
+  width: 225px;
+  margin-right: -200px;
+}
+
+#tail img{
+  align-items: center;
+  z-index: 0;
+}
+
+#lower{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
